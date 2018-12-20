@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Clubs</string>
+    <string name="million">Millionen</string>
+    <string name="club_desc">Der Verein %1$s! aus %2$s! hat einen Wert von %3$d Millionen Euro.</string>
+</resources>

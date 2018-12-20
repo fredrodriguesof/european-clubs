@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/imvClubLogo"
+                style="@style/ClubLogo" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.3">
+            <TextView
+                android:id="@+id/txvClubName"
+                style="@style/ClubName" />
+            <TextView
+                android:id="@+id/txvClubCountry"
+                style="@style/ClubCountry" />
+            <TextView
+                android:id="@+id/txvClubValue"
+                style="@style/ClubValue" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
